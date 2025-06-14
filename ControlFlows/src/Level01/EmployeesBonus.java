@@ -10,6 +10,7 @@ public class EmployeesBonus {
 		if(year>5) {
 			System.out.println(5*salary/100);
 		}
+		sc.close();
 	}
 
 }
