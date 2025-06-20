@@ -6,7 +6,7 @@ public class CharacterFrequencyNestedLoop {
     public static String[] findCharFrequencies(String input) {
         char[] chars = input.toCharArray();
         int[] freq = new int[chars.length];
-        boolean[] counted = new boolean[chars.length];
+//        boolean[] counted = new boolean[chars.length];
 
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == '0') {
